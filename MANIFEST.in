@@ -1,2 +1,2 @@
 include README.MD
-include test_cwru/datafiles.txt
+include multivariate_cwru/datafiles.txt
