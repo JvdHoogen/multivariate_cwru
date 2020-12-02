@@ -10,7 +10,7 @@ $ pip install multivariate_cwru
 ### Use of the package
 After the installation, the package can be imported in your specific session, for example in Jupyter Notebook;
 ```sh
-import multivariate_cwru
+import multivariate-cwru
 ```
 Then the class in the package can be called as follows;
 ```sh
