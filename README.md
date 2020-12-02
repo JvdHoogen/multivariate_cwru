@@ -4,13 +4,13 @@ This package functions as an extension on the original package developed by [Lit
 ### Installation
 Installing the package can be done manually, but I recommend to install via pip since this is much easier by just copying the code below and paste it in your terminal/command prompt:
 ```sh
-$ pip install multivariate_cwru
+$ pip install multivariate-cwru
 ```
 
 ### Use of the package
 After the installation, the package can be imported in your specific session, for example in Jupyter Notebook;
 ```sh
-import multivariate-cwru
+import multivariate_cwru
 ```
 Then the class in the package can be called as follows;
 ```sh
