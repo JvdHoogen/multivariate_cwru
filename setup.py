@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="multivariate_cwru",
-    version="0.0.3",
+    version="0.0.4",
     author="Jurgen van den Hoogen",
     author_email="jurgenvandenhoogen@hotmail.com",
     description="Preprocessed CWRU Bearing Dataset for multivariate signals",
