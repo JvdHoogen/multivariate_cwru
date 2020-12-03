@@ -26,13 +26,13 @@ The called function results in six different objects:
 
 ### Arguments
 As can be seen in the previous code block, the package asks seven arguments for extracting and preprocessing the CWRU bearing datasets into usable objects. The following arguments need to be addressed when using CWRU class:
->1) Experiment: The specific name for the experiment to use. There are three options: `"12DriveEndFault"`, `"12FanEndFault"` and `"48DriveEndFault"`.
->2) Length: Sequence length of every time series.
->3) Trainsplit: Between 1 and 0 which splits the data into a train and test set.
->4) Seed: Set seed for data shuffle to recreate reproducible objects.
->5) Sens: number of sensors to be extracted. Integer number between  `1` and `3`.
->6) RPM: Choose the rotations per minute to narrow down the experiment's data. Four options are available, `"1797"`,`"1772"`,`"1750"`and `"1730"`. Multiple inputs are possible.
->7) Normal_condition: Boolean expression to add/exclude the normal conditions from the objects.
+1) Experiment: The specific name for the experiment to use. There are three options: `"12DriveEndFault"`, `"12FanEndFault"` and `"48DriveEndFault"`.
+2) Length: Sequence length of every time series.
+3) Trainsplit: Between 1 and 0 which splits the data into a train and test set.
+4) Seed: Set seed for data shuffle to recreate reproducible objects.
+5) Sens: number of sensors to be extracted. Integer number between  `1` and `3`.
+6) RPM: Choose the rotations per minute to narrow down the experiment's data. Four options are available, `"1797"`,`"1772"`,`"1750"`and `"1730"`. Multiple inputs are possible.
+7) Normal_condition: Boolean expression to add/exclude the normal conditions from the objects.
 
 
 
