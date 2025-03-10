@@ -65,7 +65,7 @@ class CWRU:
         self.trainsplit = trainsplit
         self._sequence_data(rdir, lines)
         self._shuffle() # shuffle training and test arrays
-        self.labels = tuple(line[2] for line in lines) # Label names 
+        self.labels = tuple(line[1:3] for line in lines) # Label names 
         self.nclasses = len(self.labels)  # Number of classes
  
     # Create directories for the download files to store
